@@ -1,0 +1,4 @@
+0;Pepsi;450
+1;Coca Cola;469
+3;Fanta;7
+4;Café;3200

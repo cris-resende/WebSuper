@@ -1,0 +1,20 @@
+﻿@page
+@model WebSuper.Pages.Produtos.CriarModel
+@{
+	ViewData["Title"] = "Criar Produto";
+}
+<form method="post">
+	<div>
+		<label for="Id">ID:</label>
+		<input type="text" id="Id" name="p.Id"/>
+	</div>
+	<div>
+		<label for="Nome">Nome: </label>
+		<input type="text" id="Nome" name="p.Nome" />
+	</div>
+	<div>
+		<label for="Preco">Preço: </label>
+		<input type="text" id="Preco" name="p.Preco" />
+	</div>
+	<button type="submit" class="btn btn-primary">Criar</button>
+</form>
